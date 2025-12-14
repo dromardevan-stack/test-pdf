@@ -1,0 +1,562 @@
+<!DOCTYPE html><html lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Frenchpreneur - Checklist Démarches de Création Micro-Entreprise</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&amp;family=Rowdies:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<style>
+        :root {
+            --brand-blue: #063573;
+            --brand-red: #d01818;
+            --brand-green: #33ab33;
+            --brand-white: #fffdfd;
+            --light-blue-bg: #E6F0FF;
+            --light-grey-bg: #f5f5f5;
+            --text-color: #333;
+            --font-title: 'Rowdies', sans-serif;
+            --font-text: 'Karla', sans-serif;
+        }
+
+        body {
+            font-family: var(--font-text);
+            background-color: #f0f2f5;
+            color: var(--text-color);
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .page-container {
+            max-width: 850px;
+            margin: 2rem auto;
+            padding: 2.5cm; /* Marges de 2.5 cm pour impression */
+            background-color: var(--brand-white);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--light-blue-bg);
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        header .logo {
+            font-family: var(--font-title);
+            font-size: 36px;
+            color: var(--brand-blue);
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        header .logo span {
+            color: var(--brand-red);
+        }
+
+        h1 {
+            font-family: var(--font-title);
+            font-size: 24pt;
+            color: var(--brand-blue);
+            margin: 1rem 0 0.5rem;
+        }
+
+        .subtitle {
+            font-family: var(--font-text);
+            font-size: 14pt;
+            color: var(--brand-red);
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+        }
+
+        .info-box {
+            background-color: var(--light-grey-bg);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1.5rem auto;
+            font-size: 11pt;
+            max-width: 90%;
+        }
+
+        .preliminary-notes {
+            background-color: var(--light-blue-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2.5rem;
+            font-size: 11pt;
+        }
+
+        .preliminary-notes h2 {
+            font-family: var(--font-title);
+            color: var(--brand-blue);
+            margin-top: 0;
+            font-size: 14pt;
+        }
+
+        .preliminary-notes ul {
+            list-style-type: '📋';
+            padding-left: 20px;
+        }
+
+        .preliminary-notes li {
+            padding-left: 10px;
+            margin-bottom: 0.5rem;
+        }
+
+        .phase {
+            margin-bottom: 3rem;
+        }
+
+        .phase-title {
+            font-family: var(--font-title);
+            font-size: 18pt;
+            color: var(--brand-blue);
+            background-color: var(--light-blue-bg);
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            border-left: 5px solid var(--brand-blue);
+        }
+
+        .step {
+            margin-bottom: 1.5rem;
+            padding-left: 1rem;
+            border-left: 3px solid #eee;
+        }
+
+        .step-title {
+            font-family: var(--font-title);
+            font-size: 13pt;
+            color: var(--brand-blue);
+            margin-bottom: 1rem;
+        }
+
+        .checklist-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+            font-size: 12pt;
+            line-height: 1.6;
+        }
+
+        .checklist-item input[type="checkbox"] {
+            margin-right: 12px;
+            margin-top: 5px;
+            width: 18px;
+            height: 18px;
+            accent-color: var(--brand-green);
+        }
+
+        .checklist-item label {
+            flex: 1;
+        }
+
+        .checklist-item ul {
+            list-style-type: '•';
+            padding-left: 25px;
+            margin-top: 0.5rem;
+            font-size: 11pt;
+            color: #555;
+        }
+
+        .input-field {
+            display: inline-block;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            background-color: #f9f9f9;
+            padding: 4px 8px;
+            font-family: var(--font-text);
+            font-size: 11pt;
+            width: 200px;
+            margin-left: 5px;
+        }
+
+        .input-field:focus {
+            outline: none;
+            border-bottom: 2px solid var(--brand-blue);
+        }
+
+        a {
+            color: var(--brand-blue);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: var(--brand-red);
+        }
+
+        .recap-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1.5rem;
+            font-size: 11pt;
+        }
+
+        .recap-table th, .recap-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .recap-table th {
+            background-color: var(--light-blue-bg);
+            font-family: var(--font-title);
+            color: var(--brand-blue);
+        }
+
+        .recap-table select, .recap-table input[type="date"] {
+            width: 100%;
+            padding: 6px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-family: var(--font-text);
+        }
+
+        .resources-section {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 2px solid var(--light-blue-bg);
+        }
+
+        .resources-section h2 {
+            font-family: var(--font-title);
+            color: var(--brand-blue);
+            font-size: 16pt;
+        }
+
+        .resources-section h3 {
+            font-family: var(--font-title);
+            color: var(--brand-blue);
+            font-size: 13pt;
+            border-bottom: 2px solid var(--light-blue-bg);
+            padding-bottom: 5px;
+            margin-top: 1.5rem;
+        }
+
+        .resources-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .resources-section li {
+            margin-bottom: 0.75rem;
+            font-size: 11pt;
+        }
+
+        .final-message {
+            background-color: var(--brand-green);
+            color: var(--brand-white);
+            text-align: center;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-top: 3rem;
+            font-family: var(--font-title);
+            font-size: 14pt;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #eee;
+            font-size: 10pt;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+<div class="page-container">
+<header>
+<a class="logo" href="#">French<span>preneur</span></a>
+<h1 id="section-1">CHECKLIST DÉMARCHES DE CRÉATION</h1>
+<p class="subtitle">Votre roadmap pour créer votre micro-entreprise sans oublier une étape</p>
+<div class="info-box">
+<strong>Temps estimé : 1-2 semaines ⏱️ | Coût : 0€ pour la plupart 💰 | Stress : 0 avec cette checklist 😌</strong>
+</div>
+</header>
+<main>
+<section class="preliminary-notes">
+<h2 id="section-1">Comment utiliser cette checklist :</h2>
+<ul>
+<li>Lisez d&#39;abord toutes les étapes pour comprendre le parcours.</li>
+<li>Cochez chaque case AU FUR ET À MESURE de votre avancement.</li>
+<li>Cliquez sur les liens bleus pour accéder directement aux sites officiels et ressources.</li>
+<li>Notez vos dates, références et informations clés dans les espaces prévus.</li>
+<li>Enregistrez ce document pour le conserver : il est votre guide de référence.</li>
+</ul>
+</section>
+<div class="phase">
+<h2 class="phase-title" id="section-2">PHASE 1 : AVANT DE COMMENCER (J-14 à J-7)</h2>
+<div class="step">
+<h3 class="step-title" id="section-2-1">☑️ ÉTAPE 1.1 : VALIDER SON IDÉE ET SON PROJET</h3>
+<div class="checklist-item">
+<input id="step1_1_1" type="checkbox"/><label for="step1_1_1">J&#39;ai défini précisément l&#39;activité que je vais exercer (commerciale, artisanale, libérale).</label>
+</div>
+<div class="checklist-item">
+<input id="step1_1_2" type="checkbox"/><label for="step1_1_2">J&#39;ai parlé de mon projet à au moins 3 clients potentiels pour valider leur intérêt.</label>
+</div>
+<div class="checklist-item">
+<input id="step1_1_3" type="checkbox"/><label for="step1_1_3">Je connais mes chiffres clés : tarifs de mes prestations/produits, coût des charges (cotisations sociales, impôts, CFE), et chiffre d&#39;affaires prévisionnel.</label>
+</div>
+</div>
+<div class="step">
+<h3 class="step-title" id="section-2-2">☑️ ÉTAPE 1.2 : CONFIRMER LE CHOIX DU STATUT</h3>
+<div class="checklist-item">
+<input id="step1_2_1" type="checkbox"/><label for="step1_2_1">Je confirme que le régime de la micro-entreprise est adapté à mon activité (simplicité, pas de TVA au début, charges calculées sur le CA encaissé).</label>
+</div>
+<div class="checklist-item">
+<input id="step1_2_2" type="checkbox"/><label for="step1_2_2">J&#39;ai identifié mon code APE (Activité Principale Exercée) qui correspond à mon activité.
+                            <ul><li>Le code APE détermine la nature de votre activité (commerciale, artisanale, libérale) et les taux de cotisations applicables. Vous pouvez le trouver sur <a href="https://www.insee.fr/fr/information/2406147" target="_blank">le site de l&#39;INSEE</a>.</li></ul>
+</label>
+</div>
+<div class="checklist-item">
+<input id="step1_2_3" type="checkbox"/><label for="step1_2_3">J&#39;ai vérifié que mon chiffre d&#39;affaires prévisionnel respecte les plafonds annuels du régime micro-entreprise pour 2025 :
+                            <ul>
+<li><b>188 700 €</b> pour les activités de vente de marchandises, de restauration ou de fourniture de logement (BIC).</li>
+<li><b>77 700 €</b> pour les prestations de services (BIC ou BNC) et les professions libérales.</li>
+</ul>
+</label>
+</div>
+</div>
+<div class="step">
+<h3 class="step-title" id="section-2-3">☑️ ÉTAPE 1.3 : PRÉPARER SA TRÉSORERIE</h3>
+<div class="checklist-item">
+<label for="start_date">Date de démarrage d&#39;activité prévue :</label>
+<input class="input-field" id="start_date" type="date"/>
+</div>
+<div class="checklist-item">
+<input id="step1_3_1" type="checkbox"/><label for="step1_3_1">J&#39;ai mis de côté une trésorerie de sécurité (équivalent de 3 mois de frais personnels recommandés).</label>
+</div>
+<div class="checklist-item">
+<input id="step1_3_2" type="checkbox"/><label for="step1_3_2">J&#39;ai listé et budgétisé les premiers investissements nécessaires (matériel, logiciel, assurances, etc.).</label>
+</div>
+</div>
+</div>
+<div class="phase">
+<h2 class="phase-title" id="section-3">🚀 PHASE 2 : LES DÉMARCHES ADMINISTRATIVES (J-7 à J-1)</h2>
+<div class="step">
+<h3 class="step-title" id="section-3-1">ÉTAPE 2.1 : IMMATRICULATION EN LIGNE</h3>
+<div class="checklist-item">
+<input id="step2_1_1" type="checkbox"/><label for="step2_1_1">Je me connecte sur le site officiel et obligatoire : le <a href="https://formalites.entreprises.gouv.fr/" target="_blank">Guichet unique des formalités des entreprises</a> (géré par l&#39;INPI).</label>
+</div>
+<div class="checklist-item">
+<input id="step2_1_2" type="checkbox"/><label for="step2_1_2">Je prépare les documents numérisés nécessaires pour la déclaration :
+                            <ul>
+<li><b>Pièce d&#39;identité</b> (carte d&#39;identité, passeport) en cours de validité, signée, avec la mention &#34;Attestation sur l&#39;honneur de conformité à l&#39;original, fait à [Ville], le [Date]&#34;.</li>
+<li><b>Justificatif de domicile</b> de moins de 3 mois (facture d&#39;électricité, quittance de loyer, etc.). Si vous êtes hébergé, il faut une attestation d&#39;hébergement et la pièce d&#39;identité de l&#39;hébergeur.</li>
+<li><b>Déclaration sur l&#39;honneur de non-condamnation</b> et de filiation (généralement un formulaire à remplir directement en ligne).</li>
+</ul>
+</label>
+</div>
+<div class="checklist-item">
+<label for="dossier_num">Numéro de dossier Guichet Unique :</label>
+<input class="input-field" id="dossier_num" placeholder="[_______________]" type="text"/>
+</div>
+<div class="checklist-item">
+<label for="depot_date">Date de dépôt du dossier :</label>
+<input class="input-field" id="depot_date" type="date"/>
+</div>
+</div>
+<div class="step">
+<h3 class="step-title" id="section-3-2">ÉTAPE 2.2 : OUVERTURE DU COMPTE BANCAIRE DÉDIÉ</h3>
+<div class="checklist-item">
+<input id="step2_2_1" type="checkbox"/><label for="step2_2_1">Je compare les offres de comptes bancaires pour micro-entrepreneurs (banques en ligne, banques traditionnelles).
+                            <ul><li><b>Rappel :</b> L&#39;;ouverture d&#39;un compte dédié à l&#39;activité est <b>obligatoire</b> si votre chiffre d&#39;affaires dépasse 10 000 € pendant deux années consécutives. Il est cependant fortement recommandé dès le début pour une gestion claire.</li></ul>
+</label>
+</div>
+<div class="checklist-item">
+<input id="step2_2_2" type="checkbox"/><label for="step2_2_2">J&#39;ai initié les démarches d&#39;ouverture du compte bancaire choisi.</label>
+</div>
+<div class="checklist-item">
+<label for="bank_name">Banque choisie :</label>
+<input class="input-field" id="bank_name" placeholder="[_______________]" type="text"/>
+</div>
+<div class="checklist-item">
+<label for="rib_date">RIB du compte dédié reçu le :</label>
+<input class="input-field" id="rib_date" type="date"/>
+</div>
+</div>
+</div>
+<div class="phase">
+<h2 class="phase-title" id="section-4">✅ PHASE 3 : APRÈS L&#39;IMMATRICULATION (J+1 à J+30)</h2>
+<div class="step">
+<h3 class="step-title" id="section-4-1">ÉTAPE 3.1 : RÉCEPTION DES DOCUMENTS OFFICIELS</h3>
+<div class="checklist-item">
+<input id="step3_1_1" type="checkbox"/><label for="step3_1_1">J&#39;ai reçu mon <b>numéro SIRET</b> par l&#39;INSEE (délai moyen : 1 à 4 semaines). Il est indispensable pour facturer.</label>
+<input class="input-field" id="siret_num" placeholder="[_______________]" type="text"/>
+</div>
+<div class="checklist-item">
+<input id="step3_1_2" type="checkbox"/><label for="step3_1_2">J&#39;ai reçu la notification de mon <b>code APE</b> définitif.</label>
+<input class="input-field" id="ape_code" placeholder="[_______________]" type="text"/>
+</div>
+<div class="checklist-item">
+<input id="step3_1_3" type="checkbox"/><label for="step3_1_3">J&#39;ai reçu ma <b>notification d&#39;affiliation</b> de l&#39;URSSAF (délai : 4 à 6 semaines) et j&#39;ai créé mon espace en ligne sur <a href="https://www.autoentrepreneur.urssaf.fr/portail/accueil.html" target="_blank">autoentrepreneur.urssaf.fr</a>.</label>
+</div>
+<div class="checklist-item">
+<label for="reception_date">Date de réception de l&#39;affiliation URSSAF :</label>
+<input class="input-field" id="reception_date" type="date"/>
+</div>
+</div>
+<div class="step">
+<h3 class="step-title" id="section-4-2">ÉTAPE 3.2 : CONFIGURATION DES OUTILS DE BASE</h3>
+<div class="checklist-item">
+<input id="step3_2_1" type="checkbox"/><label for="step3_2_1">J&#39;ai créé ma signature d&#39;email professionnelle incluant mon nom, mon activité, mon numéro SIRET et la mention &#34;EI&#34; ou &#34;Entrepreneur Individuel&#34;.</label>
+</div>
+<div class="checklist-item">
+<input id="step3_2_2" type="checkbox"/><label for="step3_2_2">J&#39;ai mis en place un système de facturation conforme (numérotation, mentions obligatoires, etc.).</label>
+</div>
+<div class="checklist-item">
+<input id="step3_2_3" type="checkbox"/><label for="step3_2_3">J&#39;ai ouvert les comptes de réseaux sociaux professionnels si pertinent pour mon activité.</label>
+</div>
+<div class="checklist-item">
+<input id="step3_2_4" type="checkbox"/><label for="step3_2_4">J&#39;ai informé mon conjoint(e) ou partenaire de PACS de la création (important pour la déclaration d&#39;impôts commune).</label>
+</div>
+</div>
+<div class="step">
+<h3 class="step-title" id="section-4-3">ÉTAPE 3.3 : PREMIÈRES OBLIGATIONS DÉCLARATIVES</h3>
+<div class="checklist-item">
+<label for="urssaf_date">Date de ma première déclaration de chiffre d&#39;affaires à l&#39;URSSAF :</label>
+<input class="input-field" id="urssaf_date" type="date"/>
+<ul><li><b>Info :</b> La première déclaration intervient après un délai minimum de 90 jours suivant la date de début d&#39;;activité. Si vous avez opté pour la déclaration mensuelle, vous déclarerez à la fin du 4ème mois.</li></ul>
+</div>
+<div class="checklist-item">
+<input id="step3_3_1" type="checkbox"/><label for="step3_3_1">J&#39;ai noté cette date dans mon agenda avec un rappel 5 jours avant l&#39;échéance.</label>
+</div>
+<div class="checklist-item">
+<input id="step3_3_2" type="checkbox"/><label for="step3_3_2">Je sais comment déclarer mon chiffre d&#39;affaires, même s&#39;il est de 0 € (la déclaration est obligatoire).</label>
+</div>
+</div>
+</div>
+<div class="phase">
+<h2 class="phase-title" id="section-5">🎯 PHASE 4 : POUR ALLER PLUS LOIN (Mois 1 à 3)</h2>
+<div class="step">
+<h3 class="step-title" id="section-5-1">ÉTAPE 4.1 : OPTIMISATION ET PROTECTION</h3>
+<div class="checklist-item">
+<input id="step4_1_1" type="checkbox"/><label for="step4_1_1">J&#39;ai souscrit une assurance Responsabilité Civile Professionnelle (RC Pro).
+                            <ul><li>Elle est <b>obligatoire pour les activités réglementées</b> (santé, droit, conseil...) et fortement recommandée pour toutes les autres afin de couvrir les dommages causés à des tiers.</li></ul>
+</label>
+</div>
+<div class="checklist-item">
+<input id="step4_1_2" type="checkbox"/><label for="step4_1_2">J&#39;ai vérifié si mon activité nécessite une <b>assurance décennale</b>.
+                            <ul><li>Elle est <b>obligatoire pour tous les professionnels du bâtiment et de la construction</b> (maçon, plombier, électricien...). Elle doit être souscrite AVANT le début de tout chantier.</li></ul>
+</label>
+</div>
+<div class="checklist-item">
+<input id="step4_1_3" type="checkbox"/><label for="step4_1_3">J&#39;ai créé un modèle de contrat ou de conditions générales de vente (CGV) pour encadrer mes prestations.</label>
+</div>
+</div>
+<div class="step">
+<h3 class="step-title" id="section-5-2">ÉTAPE 4.2 : GESTION ET SUIVI</h3>
+<div class="checklist-item">
+<input id="step4_2_1" type="checkbox"/><label for="step4_2_1">J&#39;utilise un outil (tableur, logiciel) pour tenir mon <b>livre des recettes</b> de manière chronologique (obligation légale).</label>
+</div>
+<div class="checklist-item">
+<input id="step4_2_2" type="checkbox"/><label for="step4_2_2">Je sépare rigoureusement mes dépenses personnelles et professionnelles grâce à mon compte dédié.</label>
+</div>
+<div class="checklist-item">
+<input id="step4_2_3" type="checkbox"/><label for="step4_2_3">Je classe et conserve tous mes justificatifs (factures d&#39;achat, notes de frais, documents comptables).
+                            <ul><li><b>Attention :</b> La durée légale de conservation des documents comptables et pièces justificatives est de <b>10 ans</b>.</li></ul>
+</label>
+</div>
+</div>
+</div>
+<section class="resources-section">
+<h2 id="section-6">Tableau Récapitulatif des Délais</h2>
+<table class="recap-table">
+<thead>
+<tr>
+<th>Étape</th>
+<th>Délai Officiel / Fréquence</th>
+<th>Votre Date Limite</th>
+<th>Statut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Déclaration CA URSSAF</td>
+<td>Mensuelle ou trimestrielle (selon votre choix)</td>
+<td><input type="date"/></td>
+<td>
+<select>
+<option>À faire</option>
+<option>En cours</option>
+<option>Fait</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Première facture</td>
+<td>Dès réception du SIRET</td>
+<td><input type="date"/></td>
+<td>
+<select>
+<option>À faire</option>
+<option>En cours</option>
+<option>Fait</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Souscription RC Pro</td>
+<td>Avant la première prestation</td>
+<td><input type="date"/></td>
+<td>
+<select>
+<option>À faire</option>
+<option>En cours</option>
+<option>Fait</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Paiement de la CFE</td>
+<td>Annuel (exonération la 1ère année civile)</td>
+<td><input type="date" value="2026-12-15"/></td>
+<td>
+<select>
+<option>À faire</option>
+<option>En cours</option>
+<option>Fait</option>
+</select>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section class="resources-section">
+<h2 id="section-7">Ressources &amp; Liens Utiles</h2>
+<h3 id="section-7-1">🔗 LIENS OFFICIELS :</h3>
+<ul>
+<li>Portail officiel des micro-entrepreneurs : <a href="https://www.autoentrepreneur.urssaf.fr/portail/accueil.html" target="_blank">autoentrepreneur.urssaf.fr</a></li>
+<li>Guichet unique pour les formalités : <a href="https://formalites.entreprises.gouv.fr/" target="_blank">formalites.entreprises.gouv.fr</a></li>
+<li>Simulateur de cotisations et de revenu net : <a href="https://mon-entreprise.urssaf.fr/simulateurs/auto-entrepreneur" target="_blank">mon-entreprise.urssaf.fr</a></li>
+<li>Portail officiel d&#39;information pour les entrepreneurs : <a href="https://entreprendre.service-public.gouv.fr/" target="_blank">entreprendre.service-public.gouv.fr</a></li>
+</ul>
+<h3 id="section-7-2">📚 GUIDES FRENCHPRENEUR :</h3>
+<ul>
+<li>[Lien à venir] Comment remplir sa première déclaration URSSAF pas à pas</li>
+<li>[Lien à venir] Modèle de facture automatique et conforme pour 2025</li>
+<li>[Lien à venir] Guide &#34;Gérer sa trésorerie les 6 premiers mois&#34;</li>
+</ul>
+<h3 id="section-7-3">📞 CONTACTS IMPORTANTS :</h3>
+<ul>
+<li>URSSAF (pour les micro-entrepreneurs) : <b>3698</b> (service gratuit + prix appel)</li>
+<li>Impôts Service (pour les professionnels) : <b>0 809 401 401</b> (service gratuit + prix appel)</li>
+<li>Votre Centre de Formalités des Entreprises (CFE) compétent (CCI, CMA) : <input class="input-field" placeholder="[À rechercher selon votre activité]" type="text"/></li>
+</ul>
+</section>
+<div class="final-message">
+                Vous venez de cocher la dernière case ? Félicitations ! <br/>Vous avez officiellement évité 90% des erreurs des débutants. Bienvenue dans l&#39;aventure entrepreneuriale. <br/>L&#39;équipe Frenchpreneur
+            </div>
+</main>
+<footer>
+<p><strong>Frenchpreneur</strong> - &#34;;De l&#39;idée au revenu, sans les pièges&#34;</p>
+<p>Dernière mise à jour : 14 décembre 2025 | Document personnel de : <input class="input-field" placeholder="[Votre Nom]" style="width:150px; text-align:center;" type="text"/></p>
+</footer>
+</div>
+
+</body></html>
